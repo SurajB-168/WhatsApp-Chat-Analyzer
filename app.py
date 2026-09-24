@@ -4,6 +4,9 @@ import seaborn as sns
 import preprocessor, helper
 
 
+
+st.set_page_config(page_title="WhatsApp Chat Analyzer", layout="wide")
+
 # Create a sidebar for title and to create some other options
 st.sidebar.title('WhatsApp Chat Analyzer')
 
