@@ -18,6 +18,32 @@ WhatsApp lets you export any chat (individual or group) as a `.txt` file. This p
 - **Emoji Analysis** — most frequently used emojis
 - User-level filtering — run any analysis for the whole group or for a single participant
 
+## 📸 Screenshots
+
+**Top Statistics**
+![Top Statistics](images/1.%20Top%20statistics.jpg)
+
+**Message Timeline**
+![Monthly Timeline](images/2.%20Monthly%20timeline.jpg)
+
+**Activity Map**
+![Activity Map](images/3%20Activity%20map.jpg)
+
+**Period Activity Heatmap**
+![Heatmap](images/4%20Heatmap.jpg)
+
+**Most Busy Users**
+![Most Busy Users](images/6.%20Most%20busy%20users.jpg)
+
+**Word Cloud**
+![Word Cloud](images/7.%20Word%20Cloud.jpg)
+
+**Top 20 Used Words**
+![Top 20 Words](images/8.%20Top%2020%20words.jpg)
+
+**Emoji Analysis**
+![Most Emoji Used](images/5.%20Most%20emoji%20used.jpg)
+
 ## 🛠️ Tech Stack
 
 | Component        | Tool/Library                     |
@@ -40,11 +66,18 @@ WhatsApp-Chat-Analyzer/
 ├── stop_hinglish.txt           # Stopword list (English + Hindi) for word cloud/top words
 ├── README.md
 │
-├── notebooks/
-│   └── Whatsapp_Chat_Analysis.ipynb   # EDA / prototyping notebook
+├── images/
+│   ├── 1. Top statistics.jpg
+│   ├── 2. Monthly timeline.jpg
+│   ├── 3 Activity map.jpg
+│   ├── 4 Heatmap.jpg
+│   ├── 5. Most emoji used.jpg
+│   ├── 6. Most busy users.jpg
+│   ├── 7. Word Cloud.jpg
+│   └── 8. Top 20 words.jpg
 │
-└── assets/
-    └── demo.png                # Screenshot(s) of the running app
+└── notebook/
+    └── Whatsapp_Chat_Analysis.ipynb   # EDA / prototyping notebook
 ```
 
 ## 🧩 What's Done in This Project
