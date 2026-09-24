@@ -1,12 +1,12 @@
-#📊 WhatsApp Chat Analyzer
+# 📊 WhatsApp Chat Analyzer
 
 An end-to-end Python project that takes a raw exported WhatsApp chat (`.txt`), parses it into a structured dataset and surfaces interactive statistics and visualizations through a Streamlit web app — including message/word/media/link counts, activity timelines, busiest days & months, an activity heatmap, most active users, a word cloud, top used words and emoji usage.
 
-##💬 About
+## 💬 About
 
 WhatsApp lets you export any chat (individual or group) as a `.txt` file. This project turns that unstructured text export into a clean, analyzable dataset and then builds a dashboard on top of it so you can explore chat activity — overall or for any individual participant.
 
-## Features
+## ✨ Features
 
 - **Top Statistics** — total messages, total words, media shared, and links shared
 - **Message Timeline** — monthly message volume over the lifetime of the chat
@@ -18,7 +18,7 @@ WhatsApp lets you export any chat (individual or group) as a `.txt` file. This p
 - **Emoji Analysis** — most frequently used emojis
 - User-level filtering — run any analysis for the whole group or for a single participant
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Component        | Tool/Library                     |
 |-------------------|-----------------------------------|
@@ -29,7 +29,7 @@ WhatsApp lets you export any chat (individual or group) as a `.txt` file. This p
 | Text Processing   | emoji, urlextract                 |
 | Prototyping       | Jupyter Notebook                  |
 
-##📁 Project Structure
+## 📁 Project Structure
 
 ```
 WhatsApp-Chat-Analyzer/
@@ -47,14 +47,14 @@ WhatsApp-Chat-Analyzer/
     └── demo.png                # Screenshot(s) of the running app
 ```
 
-##🧩 What's Done in This Project
+## 🧩 What's Done in This Project
 
 - **`preprocessor.py`** parses a raw WhatsApp `.txt` export into a structured pandas DataFrame (sender, message, date, year, month, day, hour, etc.) using regex.
 - **`helper.py`** computes all the stats and visualizations above, per user or overall, using that DataFrame.
 - **`app.py`** is the Streamlit dashboard that ties it together — upload a chat, pick a user, click a button, see the results.
 - **`notebooks/`** holds the original exploratory notebook used to build and test the parsing/analysis logic.
 
-##🚀 How to Run
+## 🚀 How to Run
 
 1. Clone the repo and install dependencies (`streamlit`, `pandas`, `matplotlib`, `seaborn`, `wordcloud`, `emoji`, `urlextract`)
 2. Make sure `preprocessor.py` and `helper.py` are in the same folder as `app.py`, then run `streamlit run app.py`
